@@ -18,12 +18,8 @@
     <div class="row">
         <div class="col-xs-12">
             <div class="box box-solid" style="padding: 20px;">
-                <strong>开发者信息</strong>
-                <p>Name : moell</p>
-                <p>Email : moell91@foxmail.com</p>
-                <p>博客地址 : <a href="http://moell.cn" target="_blank">moell</a></p>
-                <p>项目地址 : <a href="https://github.com/moell-peng/moell-blog" target="_blank">Github</a></p>
-
+                <strong>Dashboard</strong>
+                <li>Time : <?php echo date('Y-m-d H:i:s')  ?></li>
                 <strong>依赖开源程序</strong>
                 <ul>
                     <li>LAMP</li>
@@ -56,10 +52,10 @@
                         </a>
                     </li>
                 </ul>
-                <strong>关于问题反馈</strong>
-                <p>
-                    可以发送Email,或者在Github上反馈遇到的问题,看到后会逐一帮助解决问题，务必将问题描述清楚。
-                </p>
+{{--                <strong>关于问题反馈</strong>--}}
+{{--                <p>--}}
+{{--                    可以发送Email,或者在Github上反馈遇到的问题,看到后会逐一帮助解决问题，务必将问题描述清楚。--}}
+{{--                </p>--}}
             </div>
         </div>
     </div>
