@@ -110,12 +110,9 @@
         </section>
     </div>
     <!-- /.content-wrapper -->
-    <footer class="main-footer">
-        <div class="pull-right hidden-xs">
-
-        </div>
-        <strong>Powered by <a href="http://moell.cn" target="_blank">Moell Blog</a></strong>
-    </footer>
+{{--    <footer class="main-footer">--}}
+{{--        <span style="font-size: xx-small">Powered by <a href="http://moell.cn" target="_blank">Moell Blog</a></span>--}}
+{{--    </footer>--}}
 </div>
 <!-- ./wrapper -->
 <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
