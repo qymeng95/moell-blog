@@ -4,6 +4,20 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * App\Models\System
+ *
+ * @property int $id
+ * @property string $key
+ * @property string $value
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\System newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\System newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\System query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\System whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\System whereKey($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\System whereValue($value)
+ * @mixin \Eloquent
+ */
 class System extends Model
 {
     protected $fillable = ['key', 'value'];
